@@ -1,0 +1,10 @@
+Algoritmo pseudo3
+	Definir num, factorial Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	factorial = num
+	Para x <-1 Hasta num - 1  Con Paso 1 Hacer
+		factorial = factorial * (num - x)
+	Fin Para
+	Escribir "El factorial es ",factorial
+FinAlgoritmo
